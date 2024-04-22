@@ -78,12 +78,18 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
   border-radius: 5px;
-  background: #ffffff7c;
+  background: #ffffff5d;
   padding: 0.2rem 0.4rem;
   position: absolute;
-  top: 35%;
+  margin: 0;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   user-select: none;
   pointer-events: none;
+}
+
+.active {
+  transform: scale(1.1);
+  filter: brightness(1.1);
 }

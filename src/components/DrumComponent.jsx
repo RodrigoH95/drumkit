@@ -81,16 +81,16 @@ export const DrumKit = () => {
     (
       <div className="drumkit">
           <div className='drum-upper'>
-            <DrumComponent diametro='5rem' tipo='platillo' keyName='Q' onClick={() => playSound('q')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='3rem' tipo='cuerpo' keyName='D' onClick={() => playSound('d')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='4rem' tipo='cuerpo' keyName='F' onClick={() => playSound('f')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='6rem' tipo='platillo' keyName='T' onClick={() => playSound('t')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='5em' tipo='platillo' keyName='Q' onClick={() => playSound('q')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='3em' tipo='cuerpo' keyName='D' onClick={() => playSound('d')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='4em' tipo='cuerpo' keyName='F' onClick={() => playSound('f')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='6em' tipo='platillo' keyName='T' onClick={() => playSound('t')} keysPressed={keysPressed}></DrumComponent>
           </div>
           <div className='drum-lower'>
-            <DrumComponent diametro='3rem' tipo='platillo' keyName='A' onClick={() => playSound('a')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='4rem' tipo='cuerpo' keyName='S' onClick={() => playSound('s')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='6.4rem' tipo='cuerpo' keyName='Space' onClick={() => playSound('space')} keysPressed={keysPressed}></DrumComponent>
-            <DrumComponent diametro='6.8rem' tipo='platillo' keyName='B' onClick={() => playSound('b')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='3em' tipo='platillo' keyName='A' onClick={() => playSound('a')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='4em' tipo='cuerpo' keyName='S' onClick={() => playSound('s')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='6.4em' tipo='cuerpo' keyName='Space' onClick={() => playSound('space')} keysPressed={keysPressed}></DrumComponent>
+            <DrumComponent diametro='6.8em' tipo='platillo' keyName='B' onClick={() => playSound('b')} keysPressed={keysPressed}></DrumComponent>
           </div>
         </div>
     )

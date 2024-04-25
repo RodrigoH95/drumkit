@@ -102,12 +102,7 @@ body {
 }
 
 @media screen and (width < 500px) {
-  .drumkit {
-    height: 300px;
-    max-width: 280px;
-  }
-
-  .drum-upper, .drum-lower {
-    width: 280px;
+  body {
+    font-size: 70%;
   }
 }

@@ -2,6 +2,10 @@ body {
   background: #3e3e3e;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 .drum-body {
@@ -56,13 +60,16 @@ body {
   filter: brightness(1.1);
 }
 
-.drum-upper {
+.drum-upper, .drum-lower {
   display: flex;
+  justify-content: center;
+}
+
+.drum-upper {
   align-items: flex-end;
 }
 
 .drum-lower {
-  display: flex;
   align-items: flex-start;
 }
 
@@ -92,4 +99,15 @@ body {
 .active {
   transform: scale(1.1);
   filter: brightness(1.1);
+}
+
+@media screen and (width < 500px) {
+  .drumkit {
+    height: 300px;
+    max-width: 280px;
+  }
+
+  .drum-upper, .drum-lower {
+    width: 280px;
+  }
 }
